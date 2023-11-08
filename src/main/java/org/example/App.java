@@ -15,7 +15,7 @@ public class App {
         keyGenerator.WriteToFile(privateKeyPath, keyGenerator.getPrivateKey().getEncoded());
         keyGenerator.WriteToFile(publicKeyPath, keyGenerator.getPublicKey().getEncoded());
 
-        var msg = "Nguyen Viet Hung";
+        var msg = "country road take me home";
         var messageDigest = MessageDigest.getInstance("SHA-256");
         var messageHash = messageDigest.digest(msg.getBytes(StandardCharsets.UTF_8));
 
