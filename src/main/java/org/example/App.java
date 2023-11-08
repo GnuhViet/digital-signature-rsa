@@ -4,11 +4,6 @@ import java.nio.charset.StandardCharsets;
 import java.security.*;
 import java.util.Base64;
 
-/**
- * @Author Nguyễn Việt Hưng - 201200165 - CNTT3 K61
- *
- */
-
 public class App {
     private static final String privateKeyPath = "F:\\Keys\\PrivateKey";
     private static final String publicKeyPath = "F:\\Keys\\PublicKey";
